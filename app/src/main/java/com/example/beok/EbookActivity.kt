@@ -63,4 +63,12 @@ class EbookActivity : AppCompatActivity() {
         val intent = Intent(applicationContext, InsertActivity::class.java)
         startActivity(intent)
     }
+    fun onClickEditEbook(v: View) {
+        val intent = Intent(applicationContext, EbookActivity::class.java)
+        startActivity(intent)
+    }
+    fun onClickEditUser(v: View) {
+        val intent = Intent(applicationContext, MainActivity::class.java)
+        startActivity(intent)
+    }
 }

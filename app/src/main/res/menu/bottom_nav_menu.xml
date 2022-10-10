@@ -3,17 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/home"
-        android:icon="@drawable/ic_baseline_home_24"
-        android:title="หน้าแรก" />
+        android:id="@+id/approve"
+        android:icon="@drawable/ic_baseline_check_circle_24"
+        android:title="อนุมัติ" />
     <item
-        android:id="@+id/myBook"
+        android:id="@+id/editEbook"
         android:icon="@drawable/ic_baseline_menu_book_24"
-        android:title="หนังสือฉัน" />
+        android:title="จัดการหนังสือ"
+        android:onClick="onClickEditEbook"/>
     <item
-        android:id="@+id/cart"
-        android:icon="@drawable/ic_baseline_shopping_cart_24"
-        android:title="ตะกร้า" />
+        android:id="@+id/editUser"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="ผู้ใช้งาน"
+        android:onClick="onClickEditUser"/>
     <item
         android:id="@+id/account"
         android:icon="@drawable/ic_baseline_account_circle_24"

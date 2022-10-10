@@ -1,5 +1,6 @@
 package com.example.beok
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.ProgressBar
@@ -86,5 +87,13 @@ class MainActivity : AppCompatActivity() {
                     }
                 })
         }
+    }
+    fun onClickEditEbook(v: View) {
+        val intent = Intent(applicationContext, EbookActivity::class.java)
+        startActivity(intent)
+    }
+    fun onClickEditUser(v: View) {
+        val intent = Intent(applicationContext, MainActivity::class.java)
+        startActivity(intent)
     }
 }
